@@ -1,0 +1,1393 @@
+{
+  "name": "body",
+  "version": 33,
+  "source-key": {
+    "type": "figma",
+    "file": "jp8D6XJmEvOtbmJy19GUPB",
+    "node": "5:412",
+    "version": "6659508512",
+    "component-id": "71c50b8ec2066817adc470328189be5400e207d1"
+  },
+  "default": "Body",
+  "design": {
+    "atoms": [
+      {
+        "type": "group",
+        "id": "top_level",
+        "root": "true"
+      },
+      {
+        "type": "group",
+        "id": "Jugadores"
+      },
+      {
+        "type": "adin_component",
+        "id": "Juego",
+        "key": "juego"
+      },
+      {
+        "type": "group",
+        "id": "Puntajes"
+      },
+      {
+        "type": "group",
+        "id": "TituloJuego"
+      },
+      {
+        "type": "adin_component",
+        "id": "Jugador1",
+        "key": "jugador1"
+      },
+      {
+        "type": "group",
+        "id": "Jugador2"
+      },
+      {
+        "type": "group",
+        "id": "Botones"
+      },
+      {
+        "type": "text",
+        "id": "3 en Raya"
+      },
+      {
+        "type": "group",
+        "id": "Frame 5"
+      },
+      {
+        "type": "group",
+        "id": "Frame 6"
+      },
+      {
+        "type": "text",
+        "id": "Juan"
+      },
+      {
+        "type": "text",
+        "id": "Nombre Jugador 1:"
+      },
+      {
+        "type": "group",
+        "id": "Frame 7"
+      },
+      {
+        "type": "group",
+        "id": "Frame 8"
+      },
+      {
+        "type": "text",
+        "id": "Pedro"
+      },
+      {
+        "type": "text",
+        "id": "Nombre Jugador 2:"
+      },
+      {
+        "type": "group",
+        "id": "Frame 3"
+      },
+      {
+        "type": "group",
+        "id": "Frame 4"
+      },
+      {
+        "type": "text",
+        "id": "Iniciar"
+      },
+      {
+        "type": "text",
+        "id": "Anular"
+      },
+      {
+        "type": "group",
+        "id": "Resultados"
+      },
+      {
+        "type": "group",
+        "id": "Tabla"
+      },
+      {
+        "type": "group",
+        "id": "PuntajesPartido"
+      },
+      {
+        "type": "group",
+        "id": "Ganador"
+      },
+      {
+        "type": "group",
+        "id": "Empate"
+      },
+      {
+        "type": "group",
+        "id": "SimboloGanador"
+      },
+      {
+        "type": "group",
+        "id": "Nombre"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 1"
+      },
+      {
+        "type": "text",
+        "id": "T1:"
+      },
+      {
+        "type": "text",
+        "id": "J1: Juan (x)"
+      },
+      {
+        "type": "group",
+        "id": "SimboloEmpate"
+      },
+      {
+        "type": "group",
+        "id": "Nombre1"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 2"
+      },
+      {
+        "type": "text",
+        "id": "G:"
+      },
+      {
+        "type": "text",
+        "id": "Empate1"
+      },
+      {
+        "type": "text",
+        "id": "TABLA DE PUNTAJES"
+      },
+      {
+        "type": "group",
+        "id": "Partido"
+      },
+      {
+        "type": "group",
+        "id": "PuntosAcumulados"
+      },
+      {
+        "type": "text",
+        "id": "Partido 1"
+      },
+      {
+        "type": "text",
+        "id": "Ganador: Empate"
+      },
+      {
+        "type": "group",
+        "id": "Puntaje"
+      },
+      {
+        "type": "group",
+        "id": "Puntaje1"
+      },
+      {
+        "type": "group",
+        "id": "Frame 14"
+      },
+      {
+        "type": "group",
+        "id": "Frame 15"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 3"
+      },
+      {
+        "type": "text",
+        "id": "P:"
+      },
+      {
+        "type": "text",
+        "id": "0"
+      },
+      {
+        "type": "group",
+        "id": "Frame 16"
+      },
+      {
+        "type": "group",
+        "id": "Frame 17"
+      },
+      {
+        "type": "vector",
+        "id": "Ellipse 4"
+      },
+      {
+        "type": "text",
+        "id": "E:"
+      },
+      {
+        "type": "text",
+        "id": "T"
+      }
+    ],
+    "modes": {
+      "Body": {
+        "rules": [
+          {
+            "id": "top_level",
+            "is-structured": false,
+            "children": [
+              "Jugadores",
+              "Juego",
+              "Puntajes"
+            ]
+          },
+          {
+            "id": "Jugadores",
+            "padding": {
+              "bottom": 10.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 246.0
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "TituloJuego",
+              "Jugador1",
+              "Jugador2",
+              "Botones"
+            ]
+          },
+          {
+            "id": "Juego",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 250.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            }
+          },
+          {
+            "id": "Puntajes",
+            "padding": {
+              "left": 10.0,
+              "right": 10.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 634.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 230.0
+              }
+            },
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Resultados",
+              "Tabla",
+              "PuntajesPartido"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "TituloJuego",
+            "padding": {
+              "left": 106.0,
+              "right": 106.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 38.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "3 en Raya"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Jugador1",
+            "Jugador1 children": [
+              "Frame 5",
+              "Frame 6"
+            ],
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 70.0
+              }
+            }
+          },
+          {
+            "id": "Jugador2",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 430.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 70.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Frame 7",
+              "Frame 8"
+            ]
+          },
+          {
+            "id": "Botones",
+            "padding": {
+              "left": 153.0,
+              "top": 10.0,
+              "right": 153.0,
+              "bottom": 10.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Frame 3",
+              "Frame 4"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "3 en Raya",
+            "font-weight": 600.0,
+            "text-content": "3 en Raya",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 24.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 5",
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 267.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.0
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Juan"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Frame 6",
+            "padding": {
+              "left": 2.0,
+              "right": 2.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 96.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 4.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Nombre Jugador 1:"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Juan",
+            "font-weight": 500.0,
+            "text-content": "Juan",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Nombre Jugador 1:",
+            "font-weight": 300.0,
+            "text-content": "Nombre Jugador 1:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 11.0,
+            "line-height": 1.549999930641868,
+            "typeface": "Laila"
+          },
+          {
+            "id": "Frame 7",
+            "padding": {
+              "left": 16.0,
+              "top": 12.0,
+              "right": 16.0,
+              "bottom": 12.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": -0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 267.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "stroke-width": 1.0,
+            "stroke-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 0.0
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Pedro"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Frame 8",
+            "padding": {
+              "left": 2.0,
+              "right": 2.0
+            },
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 96.0
+              },
+              "vertical": {
+                "attachment": "start",
+                "offset": 4.0
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Nombre Jugador 2:"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            }
+          },
+          {
+            "id": "Pedro",
+            "font-weight": 500.0,
+            "text-content": "Pedro",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 16.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Nombre Jugador 2:",
+            "font-weight": 300.0,
+            "text-content": "Nombre Jugador 2:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 11.0,
+            "line-height": 1.549999930641868,
+            "typeface": "Laila"
+          },
+          {
+            "id": "Frame 3",
+            "padding": {
+              "left": 28.0,
+              "top": 9.0,
+              "right": 28.0,
+              "bottom": 9.0
+            },
+            "border-radius": 10.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Iniciar"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 212.53731343283582,
+              "saturation": 1.0,
+              "value": 0.788235294117647
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Frame 4",
+            "padding": {
+              "left": 28.0,
+              "top": 9.0,
+              "right": 28.0,
+              "bottom": 9.0
+            },
+            "border-radius": 10.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Anular"
+            ],
+            "item-spacing": 10.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 212.53731343283582,
+              "saturation": 1.0,
+              "value": 0.788235294117647
+            },
+            "clip-content": false
+          },
+          {
+            "id": "Iniciar",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Iniciar",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.76799964904785,
+            "line-height": 1.2102272388088144,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Anular",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "Anular",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.76799964904785,
+            "line-height": 1.2102272388088144,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Resultados",
+            "padding": {
+              "left": 51.0,
+              "right": 51.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 61.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Ganador",
+              "Empate"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Tabla",
+            "padding": {
+              "left": 115.0,
+              "right": 115.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "TABLA DE PUNTAJES"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "PuntajesPartido",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 120.0
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "cross-axis-align": "start",
+            "children": [
+              "Partido",
+              "PuntosAcumulados"
+            ]
+          },
+          {
+            "id": "Ganador",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "SimboloGanador",
+              "Nombre"
+            ],
+            "item-spacing": 13.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 240.0,
+              "saturation": 0.008888888888888858,
+              "value": 0.8823529411764706
+            }
+          },
+          {
+            "id": "Empate",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "SimboloEmpate",
+              "Nombre1"
+            ],
+            "item-spacing": 13.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 240.0,
+              "saturation": 0.008888888888888858,
+              "value": 0.8823529411764706
+            }
+          },
+          {
+            "id": "SimboloGanador",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 46.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 1",
+              "T1:"
+            ]
+          },
+          {
+            "id": "Nombre",
+            "padding": {
+              "top": 2.0,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 101.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "J1: Juan (x)"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Ellipse 1",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "vector-content": "ellipse_1.svg"
+          },
+          {
+            "id": "T1:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "T:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.76799964904785,
+            "line-height": 1.2102272388088144,
+            "typeface": "Inter"
+          },
+          {
+            "id": "J1: Juan (x)",
+            "font-weight": 700.0,
+            "text-content": "J1: Juan (x)",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "SimboloEmpate",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 46.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 2",
+              "G:"
+            ]
+          },
+          {
+            "id": "Nombre1",
+            "padding": {
+              "top": 2.0,
+              "bottom": 2.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 101.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Empate1"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Ellipse 2",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "vector-content": "ellipse_2.svg"
+          },
+          {
+            "id": "G:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 1.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "G:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.76799964904785,
+            "line-height": 1.2102272388088144,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Empate1",
+            "font-weight": 700.0,
+            "text-content": "Empate",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "TABLA DE PUNTAJES",
+            "font-weight": 700.0,
+            "text-content": "TABLA DE PUNTAJES",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 24.0,
+            "line-height": 1.2102272510528564,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Partido",
+            "padding": {
+              "top": 41.0,
+              "bottom": 41.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 147.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "Partido 1",
+              "Ganador: Empate"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "PuntosAcumulados",
+            "padding": {
+              "left": 39.0,
+              "right": 39.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 279.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 117.0
+              }
+            },
+            "arrangement": "row",
+            "children": [
+              "Puntaje",
+              "Puntaje1"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Partido 1",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 131.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "text-content": "Partido 1",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 18.0,
+            "line-height": 1.2102272245619032,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Ganador: Empate",
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 231.32075471698113,
+              "saturation": 0.9754601226993865,
+              "value": 0.6392156862745098
+            },
+            "text-content": "Ganador:  Empate",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Puntaje",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 14",
+              "Frame 15"
+            ],
+            "item-spacing": 13.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 240.0,
+              "saturation": 0.008888888888888858,
+              "value": 0.8823529411764706
+            }
+          },
+          {
+            "id": "Puntaje1",
+            "border-radius": 20.0,
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "shrink"
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "arrangement": "row",
+            "main-axis-align": "start",
+            "children": [
+              "Frame 16",
+              "Frame 17"
+            ],
+            "item-spacing": 13.0,
+            "background-color": {
+              "alpha": 1.0,
+              "hue": 240.0,
+              "saturation": 0.008888888888888858,
+              "value": 0.8823529411764706
+            }
+          },
+          {
+            "id": "Frame 14",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 46.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 3",
+              "P:"
+            ]
+          },
+          {
+            "id": "Frame 15",
+            "padding": {
+              "left": 9.0,
+              "top": 14.0,
+              "right": 9.0,
+              "bottom": 14.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "0"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Ellipse 3",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "vector-content": "ellipse_3.svg"
+          },
+          {
+            "id": "P:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": 0.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "P:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.76799964904785,
+            "line-height": 1.2102272388088144,
+            "typeface": "Inter"
+          },
+          {
+            "id": "0",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "text-content": "0",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          },
+          {
+            "id": "Frame 16",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 46.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 45.0
+              }
+            },
+            "is-structured": false,
+            "children": [
+              "Ellipse 4",
+              "E:"
+            ]
+          },
+          {
+            "id": "Frame 17",
+            "padding": {
+              "left": 9.0,
+              "top": 14.0,
+              "right": 9.0,
+              "bottom": 14.0
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 29.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "children": [
+              "T"
+            ],
+            "item-spacing": 10.0
+          },
+          {
+            "id": "Ellipse 4",
+            "alignment": {
+              "horizontal": {
+                "attachment": "start",
+                "offset": 3.0
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.5
+              }
+            },
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              },
+              "height-constraints": {
+                "sizing-mode": "fixed",
+                "value": 40.0
+              }
+            },
+            "vector-content": "ellipse_4.svg"
+          },
+          {
+            "id": "E:",
+            "alignment": {
+              "horizontal": {
+                "attachment": "center",
+                "offset": -0.5
+              },
+              "vertical": {
+                "attachment": "center",
+                "offset": 0.0
+              }
+            },
+            "font-weight": 700.0,
+            "color": {
+              "alpha": 1.0,
+              "hue": 0.0,
+              "saturation": 0.0,
+              "value": 1.0
+            },
+            "text-content": "E:",
+            "overflow": "visible",
+            "text-align": "left",
+            "text-size": 20.76799964904785,
+            "line-height": 1.2102272388088144,
+            "typeface": "Inter"
+          },
+          {
+            "id": "T",
+            "size-constraints": {
+              "width-constraints": {
+                "sizing-mode": "proportional",
+                "value": 1.0
+              },
+              "height-constraints": {
+                "sizing-mode": "shrink"
+              }
+            },
+            "font-weight": 700.0,
+            "text-content": "T",
+            "overflow": "visible",
+            "max-lines": -1,
+            "text-align": "left",
+            "text-size": 15.0,
+            "line-height": 1.2102272033691406,
+            "typeface": "Inter"
+          }
+        ]
+      }
+    }
+  },
+  "previews": [
+    {
+      "design": "Body",
+      "size": {
+        "width": 430.0,
+        "height": 864.0
+      }
+    }
+  ],
+  "adin-component-search-paths": [],
+  "image-search-paths": [],
+  "vector-search-paths": []
+}
